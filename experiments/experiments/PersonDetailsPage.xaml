@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="experiments.Models.PersonDetailsPage"
+             Title="PersonDetailsPage">
+    <VerticalStackLayout>
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="20"
+            VerticalOptions="Center">
+
+            <VerticalStackLayout Spacing="10" Padding="20">
+                <Label FontSize="18" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🧑 Name: " TextColor="#34495e"/>
+                            <Span Text="{Binding Name}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="18" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🧑‍🦰 Surname: " TextColor="#34495e"/>
+                            <Span Text="{Binding Surname}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="18" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🎂 Age: " TextColor="#34495e"/>
+                            <Span Text="{Binding Age}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="18">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="👥 Group: " TextColor="#34495e"/>
+                            <Span Text="{Binding Group}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="18" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🏙️ City: " TextColor="#34495e"/>
+                            <Span Text="{Binding City}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="18" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🌍 Country: " TextColor="#34495e"/>
+                            <Span Text="{Binding Country}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label FontSize="18" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="🎓 University: " TextColor="#34495e"/>
+                            <Span Text="{Binding University}" FontAttributes="Bold" TextColor="#34495e"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
